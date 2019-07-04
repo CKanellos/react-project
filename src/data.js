@@ -6,42 +6,42 @@ export const initialDecks = [
       {
         question: 'What is the capital of Japan?',
         choices: ['Tokyo', 'Kyoto', 'Sapporo', 'Osaka'],
-        answer: 'Tokyo',
+        answer: 0,
       },
       {
         question: 'What is the capital of France?',
         choices: ['Lyon', 'Strasbourg', 'Paris', 'Marseilles'],
-        answer: 'Paris',
+        answer: 2,
       },
       {
         question: 'What is the capital of South Korea?',
         choices: ['Busan', 'Seoul', 'Jeju', 'Incheon'],
-        answer: 'Seoul',
+        answer: 1,
       },
       {
         question: 'What is the capital of Russia?',
         choices: ['Sochi', 'St Petersburg', 'Volgograd', 'Moscow'],
-        answer: 'Moscow',
+        answer: 3,
       },
       {
         question: 'What is the capital of the USA?',
         choices: ['New York', 'Chicago', 'Boston', 'Washington DC'],
-        answer: 'Washington DC',
+        answer: 3,
       },
       {
         question: 'What is the capital of Canada?',
         choices: ['Ottawa', 'Montreal', 'Toronto', 'Vancouver'],
-        answer: 'Ottawa',
+        answer: 0,
       },
       {
         question: 'What is the capital of China?',
         choices: ['Shanghai', 'Beijing', 'Shenzhen', 'Tianjin'],
-        answer: 'Beijing',
+        answer: 1,
       },
       {
         question: 'What is the capital of England?',
         choices: ['Liverpool', 'Cambridge', 'London', 'Manchester'],
-        answer: 'London',
+        answer: 2,
       },
     ],
   },
@@ -52,7 +52,7 @@ export const initialDecks = [
       {
         question: 'What is the name of the HTML syntax in Javascript?',
         choices: ['JSHTML', 'HTMLJS', 'JSX', 'HJML'],
-        answer: 'JSX',
+        answer: 2,
       },
       {
         question: 'What is Redux used for?',
@@ -63,13 +63,13 @@ export const initialDecks = [
           'All of the above',
           'What is Redux?',
         ],
-        answer: 'All of the above',
+        answer: 3,
       },
       {
         question:
           'What word is used to refer to an object created from a class?',
         choices: ['Something', 'Blueprint', 'Instance', 'Constructor'],
-        answer: 'Instance',
+        answer: 2,
       },
       {
         question: 'How great is this bootcamp?',
@@ -80,7 +80,7 @@ export const initialDecks = [
           'Absolutely awesome',
           'None of the above',
         ],
-        answer: 'Really great',
+        answer: 0,
       },
     ],
   },
